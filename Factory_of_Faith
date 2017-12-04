@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Магистрская работа</title>
+    <title>Выпускная работа</title>
     <style>
         body {
             background-color: #fafafa;
@@ -37,9 +37,9 @@
 
 <body>
     <main>
-        <h1>Страница о магистрской работе Иванова И. И.</h1>
+        <h1>Страница выпускной работы Жумбей А. И.</h1>
         <section class="info">
-            <h2>Автобиография</h2>
+            <h2>Немного о себе</h2>
             <img src="./avatar.png" alt="https://vk.com/photo288613882_456239599" class="photo">
             <p>
                Я магистрант биологического факультета БГУ, прибыл учиться из РФ. 
@@ -51,7 +51,7 @@
             <label class="list-label" for="workLinks">Ссылки на </label>
             <ul id="workLinks">
                 <li>
-                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Выпускная работа</a>
                 </li>
                 <li>
                     <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
