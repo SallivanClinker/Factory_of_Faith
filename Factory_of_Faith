@@ -1,16 +1,66 @@
+<!DOCTYPE html>
 <html>
- <meta http-equiv="content-type"content="text/html; charset=windows-1251">
- <head>
-  <title>Выпускная работа по информационным технологиям студента Жумбей А.И. биологического ф-та БГУ</title>
- </head>
- <body>
-  <img src = "mojave-desert-school-bus.jpg" alt = "Картинка" width = "1000" height = "500">
-  <h1>Обо мне</h1>
-  <p>Меня зовут Антон,я магистрант биологического факультета БГУ. Сейчас учусь уже второй год и совсем скоро закончу обучение, после чего пойду в аспирантуру, поскольку хочу получить степень кандидата биологических наук. Моя сфера деятельности - микробиология и молекулярная биология. 
-  Родился я в России в городе Ростов-на-Дону и начал свое обучение именно там, окончив Академию биологии и биотехнологии Южного Федерального университета на кафедре Почвоведения и оценки земельных ресурсов.</p>
- <h1>Мой реферат</h1>
- <h1>Мой научный руководитель</h1>
-  <a target = "_new" href = "http://bio.bsu.by/microbio/titok.html" title "Титок Марина Алексеевна"</a>
-  <br>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Магистрская работа</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистрской работе Иванова И. И.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="./avatar.png" alt="https://vk.com/photo288613882_456239599" class="photo">
+            <p>
+               Я магистрант биологического факультета БГУ, прибыл учиться из РФ. 
+               Ранее закончил бакалавриат Южного Федерального Университета в г. Ростове-на-Дону по специальности "Почоведение". 
+               Сейчас специализируюсь по молекулярной биологии.
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="http://bio.bsu.by/microbio/titok.html" target="_blank">Титок Марина Алексеевна</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
 </html>
